@@ -71,7 +71,7 @@ while True:
     root.configure(bg='#B7E5D6')
 
     # Schedule the window to show after 20 minutes (20 * 60,000 milliSeconds)
-    root.after(5000, show_window)
+    root.after(20 * 60000, show_window)
 
     # Automatically close the window after 20 Seconds (20,000 milliSeconds) if "OK" is not clicked
     root.after(20000, close_window_after_timeout)
